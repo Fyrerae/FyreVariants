@@ -1,13 +1,13 @@
 {
-  "itemGroup.examplemod": "Example Mod Tab",
-  "block.examplemod.example_block": "Example Block",
-  "item.examplemod.example_item": "Example Item",
-
-  "examplemod.configuration.title": "Example Mod Configs",
-  "examplemod.configuration.section.examplemod.common.toml": "Example Mod Configs",
-  "examplemod.configuration.section.examplemod.common.toml.title": "Example Mod Configs",
-  "examplemod.configuration.items": "Item List",
-  "examplemod.configuration.logDirtBlock": "Log Dirt Block",
-  "examplemod.configuration.magicNumberIntroduction": "Magic Number Text",
-  "examplemod.configuration.magicNumber": "Magic Number"
+  "block.minecraft.ladder": "Oak Ladder",
+  "block.fyrevariants.acacia_ladder": "Acacia Ladder",
+  "block.fyrevariants.bamboo_ladder": "Bamboo Ladder",
+  "block.fyrevariants.birch_ladder": "Birch Ladder",
+  "block.fyrevariants.cherry_ladder": "Cherry Ladder",
+  "block.fyrevariants.crimson_ladder": "Crimson Ladder",
+  "block.fyrevariants.dark_oak_ladder": "Dark Oak Ladder",
+  "block.fyrevariants.jungle_ladder": "Jungle Ladder",
+  "block.fyrevariants.mangrove_ladder": "Mangrove Ladder",
+  "block.fyrevariants.spruce_ladder": "Spruce Ladder",
+  "block.fyrevariants.warped_ladder": "Warped Ladder"
 }

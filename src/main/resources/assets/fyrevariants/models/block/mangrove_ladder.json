@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/ladder",
+  "textures": {
+    "texture": "fyrevariants:block/mangrove_ladder",
+    "particle": "fyrevariants:block/mangrove_ladder"
+  },
+  "render_type": "cutout_mipped"
+}

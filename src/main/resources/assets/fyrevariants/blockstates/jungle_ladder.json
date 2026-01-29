@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "fyrevariants:block/jungle_ladder"
+    },
+    "facing=east": {
+      "model": "fyrevariants:block/jungle_ladder",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "fyrevariants:block/jungle_ladder",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "fyrevariants:block/jungle_ladder",
+      "y": 270
+    }
+  }
+}

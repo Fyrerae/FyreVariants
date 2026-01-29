@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "fyrevariants:acacia_ladder",
+    "fyrevariants:bamboo_ladder",
+    "fyrevariants:birch_ladder",
+    "fyrevariants:cherry_ladder",
+    "fyrevariants:crimson_ladder",
+    "fyrevariants:dark_oak_ladder",
+    "fyrevariants:jungle_ladder",
+    "fyrevariants:mangrove_ladder",
+    "fyrevariants:spruce_ladder",
+    "fyrevariants:warped_ladder"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/ladder",
+  "textures": {
+    "texture": "fyrevariants:block/acacia_ladder",
+    "particle": "fyrevariants:block/acacia_ladder"
+  },
+  "render_type": "cutout_mipped"
+}
