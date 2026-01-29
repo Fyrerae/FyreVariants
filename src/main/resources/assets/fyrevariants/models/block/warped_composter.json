@@ -1,0 +1,10 @@
+{
+  "parent": "fyrevariants:block/variantcomposter",
+  "textures": {
+    "bottom": "fyrevariants:block/warped_composter_bottom",
+    "inside": "fyrevariants:block/warped_composter_bottom",
+    "particle": "fyrevariants:block/warped_composter_side",
+    "side": "fyrevariants:block/warped_composter_side",
+    "top": "fyrevariants:block/warped_composter_top"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "parent": "fyrevariants:block/variantcomposter",
+  "textures": {
+    "bottom": "fyrevariants:block/mangrove_composter_bottom",
+    "inside": "fyrevariants:block/mangrove_composter_bottom",
+    "particle": "fyrevariants:block/mangrove_composter_side",
+    "side": "fyrevariants:block/mangrove_composter_side",
+    "top": "fyrevariants:block/mangrove_composter_top"
+  }
+}

@@ -9,5 +9,16 @@
   "block.fyrevariants.jungle_ladder": "Jungle Ladder",
   "block.fyrevariants.mangrove_ladder": "Mangrove Ladder",
   "block.fyrevariants.spruce_ladder": "Spruce Ladder",
-  "block.fyrevariants.warped_ladder": "Warped Ladder"
+  "block.fyrevariants.warped_ladder": "Warped Ladder",
+  "block.minecraft.composter": "Spruce Composter",
+  "block.fyrevariants.acacia_composter": "Acacia Composter",
+  "block.fyrevariants.bamboo_composter": "Bamboo Composter",
+  "block.fyrevariants.birch_composter": "Birch Composter",
+  "block.fyrevariants.cherry_composter": "Cherry Composter",
+  "block.fyrevariants.crimson_composter": "Crimson Composter",
+  "block.fyrevariants.dark_oak_composter": "Dark Oak Composter",
+  "block.fyrevariants.jungle_composter": "Jungle Composter",
+  "block.fyrevariants.mangrove_composter": "Mangrove Composter",
+  "block.fyrevariants.oak_composter": "Oak Composter",
+  "block.fyrevariants.warped_composter": "Warped Composter"
 }

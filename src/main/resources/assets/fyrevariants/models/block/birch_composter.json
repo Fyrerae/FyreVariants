@@ -1,0 +1,10 @@
+{
+  "parent": "fyrevariants:block/variantcomposter",
+  "textures": {
+    "bottom": "fyrevariants:block/birch_composter_bottom",
+    "inside": "fyrevariants:block/birch_composter_bottom",
+    "particle": "fyrevariants:block/birch_composter_side",
+    "side": "fyrevariants:block/birch_composter_side",
+    "top": "fyrevariants:block/birch_composter_top"
+  }
+}
