@@ -1,4 +1,4 @@
-package com.fyrerae.fyrevariants.client;
+package com.fyrerae.fyrevariants.utils;
 
 import com.fyrerae.fyrevariants.block.categories.ComposterBlocks;
 import com.fyrerae.fyrevariants.block.categories.LadderBlocks;

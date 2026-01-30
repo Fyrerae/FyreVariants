@@ -2,7 +2,7 @@ package com.fyrerae.fyrevariants;
 
 import com.fyrerae.fyrevariants.block.FyreBlocks;
 import com.fyrerae.fyrevariants.item.FyreItems;
-import com.fyrerae.fyrevariants.client.FyreCreativeTabs;
+import com.fyrerae.fyrevariants.utils.FyreCreativeTabs;
 
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.common.Mod;
