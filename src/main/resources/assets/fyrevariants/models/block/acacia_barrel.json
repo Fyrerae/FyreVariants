@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "fyrevariants:block/acacia_barrel_bottom",
+    "side": "fyrevariants:block/acacia_barrel_side",
+    "top": "fyrevariants:block/acacia_barrel_top"
+  }
+}

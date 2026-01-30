@@ -1,5 +1,6 @@
 package com.fyrerae.fyrevariants.utils;
 
+import com.fyrerae.fyrevariants.block.categories.BarrelBlocks;
 import com.fyrerae.fyrevariants.block.categories.ComposterBlocks;
 import com.fyrerae.fyrevariants.block.categories.CraftingTableBlocks;
 import com.fyrerae.fyrevariants.block.categories.LadderBlocks;
@@ -41,6 +42,16 @@ public class FyreCreativeTabs {
         event.accept(ComposterBlocks.MANGROVE_COMPOSTER);
         event.accept(ComposterBlocks.OAK_COMPOSTER);
         event.accept(ComposterBlocks.WARPED_COMPOSTER);
+        event.accept(BarrelBlocks.ACACIA_BARREL);
+        event.accept(BarrelBlocks.BAMBOO_BARREL);
+        event.accept(BarrelBlocks.BIRCH_BARREL);
+        event.accept(BarrelBlocks.CHERRY_BARREL);
+        event.accept(BarrelBlocks.CRIMSON_BARREL);
+        event.accept(BarrelBlocks.DARK_OAK_BARREL);
+        event.accept(BarrelBlocks.JUNGLE_BARREL);
+        event.accept(BarrelBlocks.MANGROVE_BARREL);
+        event.accept(BarrelBlocks.OAK_BARREL);
+        event.accept(BarrelBlocks.WARPED_BARREL);
     }
 
     public static void addFunctionalBlocks(BuildCreativeModeTabContentsEvent event) {
@@ -74,6 +85,16 @@ public class FyreCreativeTabs {
         event.accept(CraftingTableBlocks.MANGROVE_CRAFTING_TABLE);
         event.accept(CraftingTableBlocks.SPRUCE_CRAFTING_TABLE);
         event.accept(CraftingTableBlocks.WARPED_CRAFTING_TABLE);
+        event.accept(BarrelBlocks.ACACIA_BARREL);
+        event.accept(BarrelBlocks.BAMBOO_BARREL);
+        event.accept(BarrelBlocks.BIRCH_BARREL);
+        event.accept(BarrelBlocks.CHERRY_BARREL);
+        event.accept(BarrelBlocks.CRIMSON_BARREL);
+        event.accept(BarrelBlocks.DARK_OAK_BARREL);
+        event.accept(BarrelBlocks.JUNGLE_BARREL);
+        event.accept(BarrelBlocks.MANGROVE_BARREL);
+        event.accept(BarrelBlocks.OAK_BARREL);
+        event.accept(BarrelBlocks.WARPED_BARREL);
     }
 
     private static void addBuildingBlocks(BuildCreativeModeTabContentsEvent event) {
