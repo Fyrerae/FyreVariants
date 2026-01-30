@@ -2,6 +2,7 @@
   "replace": false,
   "values": [
     "#fyrevariants:ladders",
-    "#fyrevariants:composters"
+    "#fyrevariants:composters",
+    "#fyrevariants:crafting_tables"
   ]
 }

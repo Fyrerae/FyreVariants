@@ -1,6 +1,7 @@
 package com.fyrerae.fyrevariants.utils;
 
 import com.fyrerae.fyrevariants.block.categories.ComposterBlocks;
+import com.fyrerae.fyrevariants.block.categories.CraftingTableBlocks;
 import com.fyrerae.fyrevariants.block.categories.LadderBlocks;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.world.item.CreativeModeTab;
@@ -63,6 +64,16 @@ public class FyreCreativeTabs {
         event.accept(ComposterBlocks.MANGROVE_COMPOSTER);
         event.accept(ComposterBlocks.OAK_COMPOSTER);
         event.accept(ComposterBlocks.WARPED_COMPOSTER);
+        event.accept(CraftingTableBlocks.ACACIA_CRAFTING_TABLE);
+        event.accept(CraftingTableBlocks.BAMBOO_CRAFTING_TABLE);
+        event.accept(CraftingTableBlocks.BIRCH_CRAFTING_TABLE);
+        event.accept(CraftingTableBlocks.CHERRY_CRAFTING_TABLE);
+        event.accept(CraftingTableBlocks.CRIMSON_CRAFTING_TABLE);
+        event.accept(CraftingTableBlocks.DARK_OAK_CRAFTING_TABLE);
+        event.accept(CraftingTableBlocks.JUNGLE_CRAFTING_TABLE);
+        event.accept(CraftingTableBlocks.MANGROVE_CRAFTING_TABLE);
+        event.accept(CraftingTableBlocks.SPRUCE_CRAFTING_TABLE);
+        event.accept(CraftingTableBlocks.WARPED_CRAFTING_TABLE);
     }
 
     private static void addBuildingBlocks(BuildCreativeModeTabContentsEvent event) {

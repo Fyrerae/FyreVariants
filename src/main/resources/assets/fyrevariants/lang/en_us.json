@@ -20,5 +20,16 @@
   "block.fyrevariants.jungle_composter": "Jungle Composter",
   "block.fyrevariants.mangrove_composter": "Mangrove Composter",
   "block.fyrevariants.oak_composter": "Oak Composter",
-  "block.fyrevariants.warped_composter": "Warped Composter"
+  "block.fyrevariants.warped_composter": "Warped Composter",
+  "block.minecraft.crafting_table": "Oak Crafting Table",
+  "block.fyrevariants.acacia_crafting_table": "Acacia Crafting Table",
+  "block.fyrevariants.bamboo_crafting_table": "Bamboo Crafting Table",
+  "block.fyrevariants.birch_crafting_table": "Birch Crafting Table",
+  "block.fyrevariants.cherry_crafting_table": "Cherry Crafting Table",
+  "block.fyrevariants.crimson_crafting_table": "Crimson Crafting Table",
+  "block.fyrevariants.dark_oak_crafting_table": "Dark Oak Crafting Table",
+  "block.fyrevariants.jungle_crafting_table": "Jungle Crafting Table",
+  "block.fyrevariants.mangrove_crafting_table": "Mangrove Crafting Table",
+  "block.fyrevariants.spruce_crafting_table": "Spruce Crafting Table",
+  "block.fyrevariants.warped_crafting_table": "Warped Crafting Table"
 }

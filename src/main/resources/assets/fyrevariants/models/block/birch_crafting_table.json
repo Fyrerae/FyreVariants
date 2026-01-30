@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "minecraft:block/birch_planks",
+    "east": "fyrevariants:block/birch_crafting_table_side",
+    "north": "fyrevariants:block/birch_crafting_table_front",
+    "particle": "fyrevariants:block/birch_crafting_table_front",
+    "south": "fyrevariants:block/birch_crafting_table_side",
+    "up": "fyrevariants:block/birch_crafting_table_top",
+    "west": "fyrevariants:block/birch_crafting_table_front"
+  }
+}

@@ -2,6 +2,7 @@ package com.fyrerae.fyrevariants.block;
 
 import com.fyrerae.fyrevariants.FyreVariants;
 import com.fyrerae.fyrevariants.block.categories.ComposterBlocks;
+import com.fyrerae.fyrevariants.block.categories.CraftingTableBlocks;
 import com.fyrerae.fyrevariants.block.categories.LadderBlocks;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredRegister;
@@ -14,5 +15,6 @@ public class FyreBlocks {
 
         LadderBlocks.init();
         ComposterBlocks.init();
+        CraftingTableBlocks.init();
     }
 }
