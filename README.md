@@ -7,6 +7,8 @@ Everything stays vanilla friendly. Just more choices for people who love matchin
 
 ---
 
+![FyreVariants Preview](images/preview.png)
+
 ## 🧱 Added Variants
 
 **Wood Types:**  
@@ -19,6 +21,15 @@ Acacia · Bamboo · Birch · Cherry · Crimson · Dark Oak · Jungle · Mangrove
 - 🪜 **Ladders**
 
 Each block is available in the wood types listed above 💗
+
+---
+
+## 💬 Community & Support
+
+Have feedback, ideas, or found a bug?  
+Come hang out on Discord. Would love to hear from you! 🌸
+
+👉 **Discord:** https://discord.gg/ujYwj8RuT6
 
 ---
 
