@@ -31,6 +31,7 @@ public class BarrelBlocks extends BaseBlockCategory {
         JUNGLE_BARREL = registerBarrel("jungle_barrel", true);
         MANGROVE_BARREL = registerBarrel("mangrove_barrel", true);
         OAK_BARREL = registerBarrel("oak_barrel", true);
+        // Spruce Barrel - Vanilla
         WARPED_BARREL = registerBarrel("warped_barrel", false);
     }
 
