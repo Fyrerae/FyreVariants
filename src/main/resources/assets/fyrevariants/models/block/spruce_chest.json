@@ -1,0 +1,7 @@
+{
+  "parent": "fyrevariants:block/variantchest",
+  "textures": {
+    "chest": "fyrevariants:block/spruce_chest",
+    "particle": "minecraft:block/spruce_planks"
+  }
+}

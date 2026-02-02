@@ -1,0 +1,7 @@
+{
+  "parent": "fyrevariants:block/variantchest",
+  "textures": {
+    "chest": "fyrevariants:block/jungle_chest",
+    "particle": "minecraft:block/jungle_planks"
+  }
+}

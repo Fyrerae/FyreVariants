@@ -1,0 +1,7 @@
+{
+  "parent": "fyrevariants:block/variantchest",
+  "textures": {
+    "chest": "fyrevariants:block/bamboo_chest",
+    "particle": "minecraft:block/bamboo_planks"
+  }
+}

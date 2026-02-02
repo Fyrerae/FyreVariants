@@ -17,19 +17,21 @@ public class LadderBlocks extends BaseBlockCategory {
     public static final DeferredBlock<Block> DARK_OAK_LADDER;
     public static final DeferredBlock<Block> JUNGLE_LADDER;
     public static final DeferredBlock<Block> MANGROVE_LADDER;
+    // Oak Ladder - Vanilla
     public static final DeferredBlock<Block> SPRUCE_LADDER;
     public static final DeferredBlock<Block> WARPED_LADDER;
 
     static {
-        ACACIA_LADDER = registerLadder("acacia_ladder", true);
-        BAMBOO_LADDER = registerLadder("bamboo_ladder", true);
-        BIRCH_LADDER = registerLadder("birch_ladder", true);
-        CHERRY_LADDER = registerLadder("cherry_ladder", true);
+        ACACIA_LADDER = registerLadder("acacia_ladder", false);
+        BAMBOO_LADDER = registerLadder("bamboo_ladder", false);
+        BIRCH_LADDER = registerLadder("birch_ladder", false);
+        CHERRY_LADDER = registerLadder("cherry_ladder", false);
         CRIMSON_LADDER = registerLadder("crimson_ladder", false);
-        DARK_OAK_LADDER = registerLadder("dark_oak_ladder", true);
-        JUNGLE_LADDER = registerLadder("jungle_ladder", true);
-        MANGROVE_LADDER = registerLadder("mangrove_ladder", true);
-        SPRUCE_LADDER = registerLadder("spruce_ladder", true);
+        DARK_OAK_LADDER = registerLadder("dark_oak_ladder", false);
+        JUNGLE_LADDER = registerLadder("jungle_ladder", false);
+        MANGROVE_LADDER = registerLadder("mangrove_ladder", false);
+        // Oak Ladder - Vanilla
+        SPRUCE_LADDER = registerLadder("spruce_ladder", false);
         WARPED_LADDER = registerLadder("warped_ladder", false);
     }
 

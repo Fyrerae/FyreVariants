@@ -17,6 +17,7 @@ public class CraftingTableBlocks extends BaseBlockCategory {
     public static final DeferredBlock<Block> DARK_OAK_CRAFTING_TABLE;
     public static final DeferredBlock<Block> JUNGLE_CRAFTING_TABLE;
     public static final DeferredBlock<Block> MANGROVE_CRAFTING_TABLE;
+    // Oak Crafting Table - Vanilla
     public static final DeferredBlock<Block> SPRUCE_CRAFTING_TABLE;
     public static final DeferredBlock<Block> WARPED_CRAFTING_TABLE;
 
@@ -29,6 +30,7 @@ public class CraftingTableBlocks extends BaseBlockCategory {
         DARK_OAK_CRAFTING_TABLE = registerCraftingTable("dark_oak_crafting_table", true);
         JUNGLE_CRAFTING_TABLE = registerCraftingTable("jungle_crafting_table", true);
         MANGROVE_CRAFTING_TABLE = registerCraftingTable("mangrove_crafting_table", true);
+        // Oak Crafting Table - Vanilla
         SPRUCE_CRAFTING_TABLE = registerCraftingTable("spruce_crafting_table", true);
         WARPED_CRAFTING_TABLE = registerCraftingTable("warped_crafting_table", false);
     }

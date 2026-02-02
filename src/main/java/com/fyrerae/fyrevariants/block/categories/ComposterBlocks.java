@@ -18,6 +18,7 @@ public class ComposterBlocks extends BaseBlockCategory {
     public static final DeferredBlock<Block> JUNGLE_COMPOSTER;
     public static final DeferredBlock<Block> MANGROVE_COMPOSTER;
     public static final DeferredBlock<Block> OAK_COMPOSTER;
+    // Spruce Composter - Vanilla
     public static final DeferredBlock<Block> WARPED_COMPOSTER;
 
     static {
@@ -30,6 +31,7 @@ public class ComposterBlocks extends BaseBlockCategory {
         JUNGLE_COMPOSTER = registerComposter("jungle_composter", true);
         MANGROVE_COMPOSTER = registerComposter("mangrove_composter", true);
         OAK_COMPOSTER = registerComposter("oak_composter", true);
+        // Spruce Composter - Vanilla
         WARPED_COMPOSTER = registerComposter("warped_composter", false);
     }
 

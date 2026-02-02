@@ -16,6 +16,7 @@ Acacia · Bamboo · Birch · Cherry · Crimson · Dark Oak · Jungle · Mangrove
 
 **Blocks:**
 - 🪵 **Barrels**
+- 📦 **Chests**
 - 🌿 **Composters**
 - 🛠️ **Crafting Tables**
 - 🪜 **Ladders**

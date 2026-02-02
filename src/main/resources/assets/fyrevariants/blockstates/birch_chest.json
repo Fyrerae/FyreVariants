@@ -1,0 +1,49 @@
+{
+  "variants": {
+    "facing=east,type=single": {
+      "model": "fyrevariants:block/birch_chest",
+      "y": 90
+    },
+    "facing=north,type=single": {
+      "model": "fyrevariants:block/birch_chest"
+    },
+    "facing=south,type=single": {
+      "model": "fyrevariants:block/birch_chest",
+      "y": 180
+    },
+    "facing=west,type=single": {
+      "model": "fyrevariants:block/birch_chest",
+      "y": 270
+    },
+    "facing=east,type=left": {
+      "model": "fyrevariants:block/birch_chest",
+      "y": 90
+    },
+    "facing=north,type=left": {
+      "model": "fyrevariants:block/birch_chest"
+    },
+    "facing=south,type=left": {
+      "model": "fyrevariants:block/birch_chest",
+      "y": 180
+    },
+    "facing=west,type=left": {
+      "model": "fyrevariants:block/birch_chest",
+      "y": 270
+    },
+    "facing=east,type=right": {
+      "model": "fyrevariants:block/birch_chest",
+      "y": 90
+    },
+    "facing=north,type=right": {
+      "model": "fyrevariants:block/birch_chest"
+    },
+    "facing=south,type=right": {
+      "model": "fyrevariants:block/birch_chest",
+      "y": 180
+    },
+    "facing=west,type=right": {
+      "model": "fyrevariants:block/birch_chest",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "fyrevariants:block/variantchest",
+  "textures": {
+    "chest": "fyrevariants:block/crimson_chest",
+    "particle": "minecraft:block/crimson_planks"
+  }
+}

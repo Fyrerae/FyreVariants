@@ -1,0 +1,7 @@
+{
+  "parent": "fyrevariants:block/variantchest",
+  "textures": {
+    "chest": "fyrevariants:block/warped_chest",
+    "particle": "minecraft:block/warped_planks"
+  }
+}

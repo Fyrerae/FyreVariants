@@ -2,6 +2,7 @@ package com.fyrerae.fyrevariants.block.entity;
 
 import com.fyrerae.fyrevariants.FyreVariants;
 import com.fyrerae.fyrevariants.block.categories.BarrelBlocks;
+import com.fyrerae.fyrevariants.block.categories.ChestBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.neoforged.bus.api.IEventBus;
@@ -25,6 +26,20 @@ public class FyreBlockEntities {
                     BarrelBlocks.MANGROVE_BARREL.get(),
                     BarrelBlocks.OAK_BARREL.get(),
                     BarrelBlocks.WARPED_BARREL.get()
+            ).build(null));
+
+    public static final Supplier<BlockEntityType<FyreChestBlockEntity>> CHEST = BLOCK_ENTITIES.register("chest",
+            () -> BlockEntityType.Builder.of(FyreChestBlockEntity::new,
+                    ChestBlocks.ACACIA_CHEST.get(),
+                    ChestBlocks.BAMBOO_CHEST.get(),
+                    ChestBlocks.BIRCH_CHEST.get(),
+                    ChestBlocks.CHERRY_CHEST.get(),
+                    ChestBlocks.CRIMSON_CHEST.get(),
+                    ChestBlocks.DARK_OAK_CHEST.get(),
+                    ChestBlocks.JUNGLE_CHEST.get(),
+                    ChestBlocks.MANGROVE_CHEST.get(),
+                    ChestBlocks.SPRUCE_CHEST.get(),
+                    ChestBlocks.WARPED_CHEST.get()
             ).build(null));
 
     public static void register(IEventBus eventBus) {
