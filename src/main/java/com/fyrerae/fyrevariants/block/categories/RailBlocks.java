@@ -17,7 +17,7 @@ public class RailBlocks extends BaseBlockCategory {
     public static final DeferredBlock<Block> DARK_OAK_RAIL;
     public static final DeferredBlock<Block> JUNGLE_RAIL;
     public static final DeferredBlock<Block> MANGROVE_RAIL;
-    public static final DeferredBlock<Block> OAK_RAIL;
+    // Oak Rail - Vanilla
     public static final DeferredBlock<Block> SPRUCE_RAIL;
     public static final DeferredBlock<Block> WARPED_RAIL;
 
@@ -30,7 +30,7 @@ public class RailBlocks extends BaseBlockCategory {
         DARK_OAK_RAIL = registerRail("dark_oak_rail", true);
         JUNGLE_RAIL = registerRail("jungle_rail", true);
         MANGROVE_RAIL = registerRail("mangrove_rail", true);
-        OAK_RAIL = registerRail("oak_rail", true);
+        // Oak Rail - Vanilla
         SPRUCE_RAIL = registerRail("spruce_rail", true);
         WARPED_RAIL = registerRail("warped_rail", false);
     }

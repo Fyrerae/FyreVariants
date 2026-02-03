@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/rail_raised_sw",
+  "textures": {
+    "rail": "fyrevariants:block/warped_rail"
+  },
+  "render_type": "cutout_mipped"
+}

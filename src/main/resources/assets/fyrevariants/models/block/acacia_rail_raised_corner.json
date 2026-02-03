@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:block/rail_raised_corner",
-  "textures": {
-    "rail": "fyrevariants:block/acacia_rail"
-  },
-  "render_type": "cutout_mipped"
-}

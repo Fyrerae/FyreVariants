@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/rail_raised_ne",
+  "textures": {
+    "rail": "fyrevariants:block/bamboo_rail"
+  },
+  "render_type": "cutout_mipped"
+}

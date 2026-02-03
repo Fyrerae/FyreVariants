@@ -3,7 +3,7 @@
   "category": "transportation",
   "key": {
     "#": {
-      "item": "minecraft:iron_ingot"
+      "item": "minecraft:jungle_planks"
     },
     "X": {
       "item": "minecraft:stick"
@@ -16,6 +16,6 @@
   ],
   "result": {
     "count": 16,
-    "id": "fyrevariants:acacia_rail"
+    "id": "fyrevariants:jungle_rail"
   }
 }
