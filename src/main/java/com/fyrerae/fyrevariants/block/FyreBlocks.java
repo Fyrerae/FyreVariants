@@ -16,5 +16,6 @@ public class FyreBlocks {
         CraftingTableBlocks.init();
         BarrelBlocks.init();
         ChestBlocks.init();
+        RailBlocks.init();
     }
 }

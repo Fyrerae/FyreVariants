@@ -13,17 +13,11 @@
           "type": "minecraft:item",
           "functions": [
             {
-              "function": "minecraft:copy_name",
-              "source": "block_entity"
-            },
-            {
               "function": "minecraft:copy_components",
-              "source": "block_entity",
               "include": [
-                "minecraft:container",
-                "minecraft:lock",
-                "minecraft:container_loot"
-              ]
+                "minecraft:custom_name"
+              ],
+              "source": "block_entity"
             }
           ],
           "name": "fyrevariants:birch_chest"

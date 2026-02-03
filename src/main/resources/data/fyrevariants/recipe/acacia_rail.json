@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "transportation",
+  "key": {
+    "#": {
+      "item": "minecraft:acacia_planks"
+    },
+    "X": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "# #",
+    "#X#",
+    "# #"
+  ],
+  "result": {
+    "count": 16,
+    "id": "fyrevariants:acacia_rail"
+  }
+}

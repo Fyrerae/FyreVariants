@@ -1,8 +1,13 @@
 {
+  "replace": false,
   "values": [
     "fyrevariants:crimson_composter",
     "fyrevariants:warped_composter",
     "fyrevariants:crimson_crafting_table",
-    "fyrevariants:warped_crafting_table"
+    "fyrevariants:warped_crafting_table",
+    "fyrevariants:crimson_barrel",
+    "fyrevariants:warped_barrel",
+    "fyrevariants:crimson_chest",
+    "fyrevariants:warped_chest"
   ]
 }
