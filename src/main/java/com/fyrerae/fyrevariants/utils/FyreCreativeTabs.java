@@ -20,6 +20,7 @@ public class FyreCreativeTabs {
         registerTabHandler(CreativeModeTabs.FUNCTIONAL_BLOCKS, FyreCreativeTabs::addFunctionalBlocks);
         registerTabHandler(CreativeModeTabs.BUILDING_BLOCKS, FyreCreativeTabs::addBuildingBlocks);
         registerTabHandler(CreativeModeTabs.REDSTONE_BLOCKS, FyreCreativeTabs::addRedstoneBlocks);
+        registerTabHandler(CreativeModeTabs.TOOLS_AND_UTILITIES, FyreCreativeTabs::addToolsUtilities);
     }
 
     private static void registerTabHandler(ResourceKey<CreativeModeTab> tab, Consumer<BuildCreativeModeTabContentsEvent> handler) {
@@ -35,6 +36,10 @@ public class FyreCreativeTabs {
         addBlocksFromClass(event, ComposterBlocks.class);
         addBlocksFromClass(event, BarrelBlocks.class);
         addBlocksFromClass(event, ChestBlocks.class);
+        addBlocksFromClass(event, RailBlocks.class);
+    }
+
+    public static void addToolsUtilities(BuildCreativeModeTabContentsEvent event) {
         addBlocksFromClass(event, RailBlocks.class);
     }
 

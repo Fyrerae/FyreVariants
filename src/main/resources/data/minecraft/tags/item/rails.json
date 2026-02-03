@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "fyrevariants:acacia_rail",
+    "fyrevariants:bamboo_rail",
+    "fyrevariants:birch_rail",
+    "fyrevariants:cherry_rail",
+    "fyrevariants:crimson_rail",
+    "fyrevariants:dark_oak_rail",
+    "fyrevariants:jungle_rail",
+    "fyrevariants:mangrove_rail",
+    "fyrevariants:spruce_rail",
+    "fyrevariants:warped_rail"
+  ]
+}
