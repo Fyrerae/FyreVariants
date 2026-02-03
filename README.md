@@ -20,6 +20,7 @@ Acacia · Bamboo · Birch · Cherry · Crimson · Dark Oak · Jungle · Mangrove
 - 🌿 **Composters**
 - 🛠️ **Crafting Tables**
 - 🪜 **Ladders**
+- 🚂 **Rails**
 
 Each block is available in the wood types listed above 💗
 
