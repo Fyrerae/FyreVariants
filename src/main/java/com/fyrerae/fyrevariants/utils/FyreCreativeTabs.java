@@ -49,6 +49,7 @@ public class FyreCreativeTabs {
         addBlocksFromClass(event, CraftingTableBlocks.class);
         addBlocksFromClass(event, BarrelBlocks.class);
         addBlocksFromClass(event, ChestBlocks.class);
+        addBlocksFromClass(event, CampfireBlocks.class);
     }
 
     private static void addBuildingBlocks(BuildCreativeModeTabContentsEvent event) {

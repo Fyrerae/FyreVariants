@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/campfire_off",
+  "textures": {
+    "particle": "fyrevariants:block/dark_oak_campfire_log",
+    "log": "fyrevariants:block/dark_oak_campfire_log"
+  }
+}

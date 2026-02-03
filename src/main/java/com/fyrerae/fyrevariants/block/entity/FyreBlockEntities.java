@@ -2,6 +2,7 @@ package com.fyrerae.fyrevariants.block.entity;
 
 import com.fyrerae.fyrevariants.FyreVariants;
 import com.fyrerae.fyrevariants.block.categories.BarrelBlocks;
+import com.fyrerae.fyrevariants.block.categories.CampfireBlocks;
 import com.fyrerae.fyrevariants.block.categories.ChestBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.world.level.block.entity.BlockEntityType;
@@ -40,6 +41,20 @@ public class FyreBlockEntities {
                     ChestBlocks.MANGROVE_CHEST.get(),
                     ChestBlocks.SPRUCE_CHEST.get(),
                     ChestBlocks.WARPED_CHEST.get()
+            ).build(null));
+
+    public static final Supplier<BlockEntityType<FyreCampfireBlockEntity>> CAMPFIRE = BLOCK_ENTITIES.register("campfire",
+            () -> BlockEntityType.Builder.of(FyreCampfireBlockEntity::new,
+                    CampfireBlocks.ACACIA_CAMPFIRE.get(),
+                    CampfireBlocks.BAMBOO_CAMPFIRE.get(),
+                    CampfireBlocks.BIRCH_CAMPFIRE.get(),
+                    CampfireBlocks.CHERRY_CAMPFIRE.get(),
+                    CampfireBlocks.CRIMSON_CAMPFIRE.get(),
+                    CampfireBlocks.DARK_OAK_CAMPFIRE.get(),
+                    CampfireBlocks.JUNGLE_CAMPFIRE.get(),
+                    CampfireBlocks.MANGROVE_CAMPFIRE.get(),
+                    CampfireBlocks.SPRUCE_CAMPFIRE.get(),
+                    CampfireBlocks.WARPED_CAMPFIRE.get()
             ).build(null));
 
     public static void register(IEventBus eventBus) {

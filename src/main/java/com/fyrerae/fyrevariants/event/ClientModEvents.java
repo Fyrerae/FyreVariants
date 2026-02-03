@@ -2,6 +2,7 @@ package com.fyrerae.fyrevariants.event;
 
 import com.fyrerae.fyrevariants.FyreVariants;
 import com.fyrerae.fyrevariants.block.entity.FyreBlockEntities;
+import com.fyrerae.fyrevariants.block.renderer.FyreCampfireRenderer;
 import com.fyrerae.fyrevariants.block.renderer.FyreChestRenderer;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.bus.api.SubscribeEvent;
@@ -14,5 +15,6 @@ public class ClientModEvents {
     @SubscribeEvent
     public static void registerRenderers(EntityRenderersEvent.RegisterRenderers event) {
         event.registerBlockEntityRenderer(FyreBlockEntities.CHEST.get(), FyreChestRenderer::new);
+        event.registerBlockEntityRenderer(FyreBlockEntities.CAMPFIRE.get(), FyreCampfireRenderer::new);
     }
 }

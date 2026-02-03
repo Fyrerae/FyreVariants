@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "fyrevariants:acacia_campfire",
+    "fyrevariants:bamboo_campfire",
+    "fyrevariants:birch_campfire",
+    "fyrevariants:cherry_campfire",
+    "fyrevariants:crimson_campfire",
+    "fyrevariants:dark_oak_campfire",
+    "fyrevariants:jungle_campfire",
+    "fyrevariants:mangrove_campfire",
+    "fyrevariants:spruce_campfire",
+    "fyrevariants:warped_campfire"
+  ]
+}
