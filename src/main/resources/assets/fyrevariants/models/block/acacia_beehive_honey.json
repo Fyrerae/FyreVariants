@@ -1,0 +1,10 @@
+{
+  "parent": "minecraft:block/orientable_with_bottom",
+  "textures": {
+    "bottom": "fyrevariants:block/acacia_beehive_end",
+    "front": "fyrevariants:block/acacia_beehive_front_honey",
+    "particle": "fyrevariants:block/acacia_beehive_side",
+    "side": "fyrevariants:block/acacia_beehive_side",
+    "top": "fyrevariants:block/acacia_beehive_end"
+  }
+}

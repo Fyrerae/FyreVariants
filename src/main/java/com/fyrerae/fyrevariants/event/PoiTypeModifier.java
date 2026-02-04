@@ -2,11 +2,13 @@ package com.fyrerae.fyrevariants.event;
 
 import com.fyrerae.fyrevariants.FyreVariants;
 import com.fyrerae.fyrevariants.block.categories.BarrelBlocks;
+import com.fyrerae.fyrevariants.block.categories.BeehiveBlocks;
 import com.fyrerae.fyrevariants.block.categories.ComposterBlocks;
 import com.google.common.collect.ImmutableSet;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.world.entity.ai.village.poi.PoiType;
 import net.minecraft.world.entity.ai.village.poi.PoiTypes;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.state.BlockState;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.common.EventBusSubscriber;
@@ -50,6 +52,21 @@ public class PoiTypeModifier {
             barrelStates.addAll(BarrelBlocks.WARPED_BARREL.get().getStateDefinition().getPossibleStates());
 
             registry.register(PoiTypes.FISHERMAN, new PoiType(ImmutableSet.copyOf(barrelStates), 1, 1));
+
+            Set<BlockState> beehiveStates = new HashSet<>();
+            beehiveStates.addAll(BeehiveBlocks.ACACIA_BEEHIVE.get().getStateDefinition().getPossibleStates());
+            beehiveStates.addAll(BeehiveBlocks.BAMBOO_BEEHIVE.get().getStateDefinition().getPossibleStates());
+            beehiveStates.addAll(BeehiveBlocks.BIRCH_BEEHIVE.get().getStateDefinition().getPossibleStates());
+            beehiveStates.addAll(BeehiveBlocks.CHERRY_BEEHIVE.get().getStateDefinition().getPossibleStates());
+            beehiveStates.addAll(BeehiveBlocks.CRIMSON_BEEHIVE.get().getStateDefinition().getPossibleStates());
+            beehiveStates.addAll(BeehiveBlocks.DARK_OAK_BEEHIVE.get().getStateDefinition().getPossibleStates());
+            beehiveStates.addAll(BeehiveBlocks.JUNGLE_BEEHIVE.get().getStateDefinition().getPossibleStates());
+            beehiveStates.addAll(BeehiveBlocks.MANGROVE_BEEHIVE.get().getStateDefinition().getPossibleStates());
+            beehiveStates.addAll(BeehiveBlocks.SPRUCE_BEEHIVE.get().getStateDefinition().getPossibleStates());
+            beehiveStates.addAll(BeehiveBlocks.WARPED_BEEHIVE.get().getStateDefinition().getPossibleStates());
+
+            registry.register(net.minecraft.resources.ResourceLocation.fromNamespaceAndPath(FyreVariants.MOD_ID, "beehive"),
+                    new PoiType(ImmutableSet.copyOf(beehiveStates), 0, 1));
         });
     }
 }

@@ -18,5 +18,6 @@ public class FyreBlocks {
         ChestBlocks.init();
         RailBlocks.init();
         CampfireBlocks.init();
+        BeehiveBlocks.init();
     }
 }

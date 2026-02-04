@@ -2,6 +2,7 @@ package com.fyrerae.fyrevariants.block.entity;
 
 import com.fyrerae.fyrevariants.FyreVariants;
 import com.fyrerae.fyrevariants.block.categories.BarrelBlocks;
+import com.fyrerae.fyrevariants.block.categories.BeehiveBlocks;
 import com.fyrerae.fyrevariants.block.categories.CampfireBlocks;
 import com.fyrerae.fyrevariants.block.categories.ChestBlocks;
 import net.minecraft.core.registries.Registries;
@@ -65,6 +66,20 @@ public class FyreBlockEntities {
                     CampfireBlocks.MANGROVE_SOUL_CAMPFIRE.get(),
                     CampfireBlocks.SPRUCE_SOUL_CAMPFIRE.get(),
                     CampfireBlocks.WARPED_SOUL_CAMPFIRE.get()
+            ).build(null));
+
+    public static final Supplier<BlockEntityType<FyreBeehiveBlockEntity>> BEEHIVE = BLOCK_ENTITIES.register("beehive",
+            () -> BlockEntityType.Builder.of(FyreBeehiveBlockEntity::new,
+                    BeehiveBlocks.ACACIA_BEEHIVE.get(),
+                    BeehiveBlocks.BAMBOO_BEEHIVE.get(),
+                    BeehiveBlocks.BIRCH_BEEHIVE.get(),
+                    BeehiveBlocks.CHERRY_BEEHIVE.get(),
+                    BeehiveBlocks.CRIMSON_BEEHIVE.get(),
+                    BeehiveBlocks.DARK_OAK_BEEHIVE.get(),
+                    BeehiveBlocks.JUNGLE_BEEHIVE.get(),
+                    BeehiveBlocks.MANGROVE_BEEHIVE.get(),
+                    BeehiveBlocks.SPRUCE_BEEHIVE.get(),
+                    BeehiveBlocks.WARPED_BEEHIVE.get()
             ).build(null));
 
     public static void register(IEventBus eventBus) {
