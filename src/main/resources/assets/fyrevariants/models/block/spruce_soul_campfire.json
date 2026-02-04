@@ -1,0 +1,10 @@
+{
+  "parent": "minecraft:block/template_campfire",
+  "textures": {
+    "fire": "minecraft:block/soul_campfire_fire",
+    "lit_log": "fyrevariants:block/spruce_soul_campfire_log_lit",
+    "log": "fyrevariants:block/spruce_campfire_log",
+    "particle": "fyrevariants:block/spruce_campfire_log"
+  },
+  "render_type": "cutout_mipped"
+}

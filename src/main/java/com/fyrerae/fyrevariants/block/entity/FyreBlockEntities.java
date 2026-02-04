@@ -54,7 +54,17 @@ public class FyreBlockEntities {
                     CampfireBlocks.JUNGLE_CAMPFIRE.get(),
                     CampfireBlocks.MANGROVE_CAMPFIRE.get(),
                     CampfireBlocks.SPRUCE_CAMPFIRE.get(),
-                    CampfireBlocks.WARPED_CAMPFIRE.get()
+                    CampfireBlocks.WARPED_CAMPFIRE.get(),
+                    CampfireBlocks.ACACIA_SOUL_CAMPFIRE.get(),
+                    CampfireBlocks.BAMBOO_SOUL_CAMPFIRE.get(),
+                    CampfireBlocks.BIRCH_SOUL_CAMPFIRE.get(),
+                    CampfireBlocks.CHERRY_SOUL_CAMPFIRE.get(),
+                    CampfireBlocks.CRIMSON_SOUL_CAMPFIRE.get(),
+                    CampfireBlocks.DARK_OAK_SOUL_CAMPFIRE.get(),
+                    CampfireBlocks.JUNGLE_SOUL_CAMPFIRE.get(),
+                    CampfireBlocks.MANGROVE_SOUL_CAMPFIRE.get(),
+                    CampfireBlocks.SPRUCE_SOUL_CAMPFIRE.get(),
+                    CampfireBlocks.WARPED_SOUL_CAMPFIRE.get()
             ).build(null));
 
     public static void register(IEventBus eventBus) {

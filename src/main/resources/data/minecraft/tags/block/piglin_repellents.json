@@ -1,24 +1,15 @@
 {
+  "replace": false,
   "values": [
-    "fyrevariants:acacia_campfire",
     "fyrevariants:acacia_soul_campfire",
-    "fyrevariants:bamboo_campfire",
     "fyrevariants:bamboo_soul_campfire",
-    "fyrevariants:birch_campfire",
     "fyrevariants:birch_soul_campfire",
-    "fyrevariants:cherry_campfire",
     "fyrevariants:cherry_soul_campfire",
-    "fyrevariants:crimson_campfire",
     "fyrevariants:crimson_soul_campfire",
-    "fyrevariants:dark_oak_campfire",
     "fyrevariants:dark_oak_soul_campfire",
-    "fyrevariants:jungle_campfire",
     "fyrevariants:jungle_soul_campfire",
-    "fyrevariants:mangrove_campfire",
     "fyrevariants:mangrove_soul_campfire",
-    "fyrevariants:spruce_campfire",
     "fyrevariants:spruce_soul_campfire",
-    "fyrevariants:warped_campfire",
     "fyrevariants:warped_soul_campfire"
   ]
 }
