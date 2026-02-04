@@ -9,5 +9,6 @@ public class FyreItems {
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
+        MinecartItems.ITEMS.register(eventBus);
     }
 }

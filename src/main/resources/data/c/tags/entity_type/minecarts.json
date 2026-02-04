@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "fyrevariants:copper_minecart",
+    "fyrevariants:gold_minecart",
+    "fyrevariants:diamond_minecart",
+    "fyrevariants:netherite_minecart"
+  ]
+}

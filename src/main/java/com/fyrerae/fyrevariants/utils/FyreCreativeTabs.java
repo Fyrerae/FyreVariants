@@ -1,18 +1,21 @@
 package com.fyrerae.fyrevariants.utils;
 
 import com.fyrerae.fyrevariants.block.categories.*;
+import com.fyrerae.fyrevariants.item.MinecartItems;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.level.block.Block;
 import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
 import net.neoforged.neoforge.registries.DeferredBlock;
+import net.neoforged.neoforge.registries.DeferredItem;
 
 import java.lang.reflect.Field;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.function.Consumer;
 
+@SuppressWarnings("unchecked")
 public class FyreCreativeTabs {
     private static final Map<ResourceKey<CreativeModeTab>, Consumer<BuildCreativeModeTabContentsEvent>> TAB_HANDLERS = new HashMap<>();
 
@@ -37,10 +40,12 @@ public class FyreCreativeTabs {
         addBlocksFromClass(event, BarrelBlocks.class);
         addBlocksFromClass(event, ChestBlocks.class);
         addBlocksFromClass(event, RailBlocks.class);
+        addItemsFromClass(event, MinecartItems.class);
     }
 
     public static void addToolsUtilities(BuildCreativeModeTabContentsEvent event) {
         addBlocksFromClass(event, RailBlocks.class);
+        addItemsFromClass(event, MinecartItems.class);
     }
 
     public static void addFunctionalBlocks(BuildCreativeModeTabContentsEvent event) {
@@ -67,6 +72,20 @@ public class FyreCreativeTabs {
             }
         } catch (IllegalAccessException e) {
             throw new RuntimeException("Failed to add blocks from class: " + blockClass.getName(), e);
+        }
+    }
+
+    private static void addItemsFromClass(BuildCreativeModeTabContentsEvent event, Class<?> itemClass) {
+        try {
+            for (Field field : itemClass.getDeclaredFields()) {
+                if (field.getType() == DeferredItem.class) {
+                    field.setAccessible(true);
+                    DeferredItem<?> item = (DeferredItem<?>) field.get(null);
+                    event.accept(item);
+                }
+            }
+        } catch (IllegalAccessException e) {
+            throw new RuntimeException("Failed to add items from class: " + itemClass.getName(), e);
         }
     }
 }

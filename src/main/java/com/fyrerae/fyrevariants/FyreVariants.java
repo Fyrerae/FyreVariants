@@ -2,6 +2,7 @@ package com.fyrerae.fyrevariants;
 
 import com.fyrerae.fyrevariants.block.FyreBlocks;
 import com.fyrerae.fyrevariants.block.entity.FyreBlockEntities;
+import com.fyrerae.fyrevariants.entity.FyreEntityTypes;
 import com.fyrerae.fyrevariants.item.FyreItems;
 import com.fyrerae.fyrevariants.utils.FyreCreativeTabs;
 
@@ -16,6 +17,7 @@ public class FyreVariants {
         FyreItems.register(modEventBus);
         FyreBlocks.register(modEventBus);
         FyreBlockEntities.register(modEventBus);
+        FyreEntityTypes.register(modEventBus);
         modEventBus.addListener(FyreCreativeTabs::addCreative);
     }
 }

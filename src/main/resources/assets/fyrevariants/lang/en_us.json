@@ -86,5 +86,15 @@
   "block.fyrevariants.warped_crafting_table": "Warped Crafting Table",
   "block.fyrevariants.warped_ladder": "Warped Ladder",
   "block.fyrevariants.warped_rail": "Warped Rail",
-  "block.fyrevariants.warped_soul_campfire": "Warped Soul Campfire"
+  "block.fyrevariants.warped_soul_campfire": "Warped Soul Campfire",
+  "entity.minecraft.minecart": "Iron Minecart",
+  "entity.fyrevariants.copper_minecart": "Copper Minecart",
+  "entity.fyrevariants.gold_minecart": "Gold Minecart",
+  "entity.fyrevariants.diamond_minecart": "Diamond Minecart",
+  "entity.fyrevariants.netherite_minecart": "Netherite Minecart",
+  "item.minecraft.minecart": "Iron Minecart",
+  "item.fyrevariants.copper_minecart": "Copper Minecart",
+  "item.fyrevariants.gold_minecart": "Gold Minecart",
+  "item.fyrevariants.diamond_minecart": "Diamond Minecart",
+  "item.fyrevariants.netherite_minecart": "Netherite Minecart"
 }
