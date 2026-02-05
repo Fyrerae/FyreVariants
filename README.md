@@ -14,7 +14,10 @@ Everything stays vanilla friendly. Just more choices for people who love matchin
 **Wood Types:**  
 Acacia · Bamboo · Birch · Cherry · Crimson · Dark Oak · Jungle · Mangrove · Oak · Spruce · Warped
 
-**Blocks:**
+**Minecart Types:**  
+Iron · Copper · Gold · Diamond · Netherite
+
+**Blocks & Items:**
 - 🪵 **Barrels**
 - 📦 **Chests**
 - 🌿 **Composters**
@@ -22,6 +25,8 @@ Acacia · Bamboo · Birch · Cherry · Crimson · Dark Oak · Jungle · Mangrove
 - 🪜 **Ladders**
 - 🚂 **Rails**
 - 🔥 **Campfires**
+- 🐝 **Beehives**
+- 🚋 **Minecarts**
 
 Each block is available in the wood types listed above 💗
 
