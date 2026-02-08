@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "minecraft:block/crimson_planks",
+    "east": "fyrevariants:block/crimson_fletching_table_side",
+    "north": "fyrevariants:block/crimson_fletching_table_front",
+    "particle": "fyrevariants:block/crimson_fletching_table_front",
+    "south": "fyrevariants:block/crimson_fletching_table_front",
+    "up": "fyrevariants:block/crimson_fletching_table_top",
+    "west": "fyrevariants:block/crimson_fletching_table_side"
+  }
+}

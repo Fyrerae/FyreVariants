@@ -19,5 +19,6 @@ public class FyreBlocks {
         RailBlocks.init();
         CampfireBlocks.init();
         BeehiveBlocks.init();
+        FletchingTableBlocks.init();
     }
 }

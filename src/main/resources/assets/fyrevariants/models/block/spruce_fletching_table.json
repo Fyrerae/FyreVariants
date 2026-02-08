@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "minecraft:block/spruce_planks",
+    "east": "fyrevariants:block/spruce_fletching_table_side",
+    "north": "fyrevariants:block/spruce_fletching_table_front",
+    "particle": "fyrevariants:block/spruce_fletching_table_front",
+    "south": "fyrevariants:block/spruce_fletching_table_front",
+    "up": "fyrevariants:block/spruce_fletching_table_top",
+    "west": "fyrevariants:block/spruce_fletching_table_side"
+  }
+}
