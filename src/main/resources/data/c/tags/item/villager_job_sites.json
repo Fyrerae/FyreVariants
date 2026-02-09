@@ -1,9 +1,6 @@
 {
   "values": [
     "#fyrevariants:barrels",
-    "#fyrevariants:composters",
-    "#fyrevariants:lecterns",
-    "#fyrevariants:fletching_tables",
-    "#fyrevariants:cartography_tables"
+    "#fyrevariants:composters"
   ]
 }
