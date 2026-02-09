@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "minecraft:block/acacia_planks",
+    "east": "fyrevariants:block/acacia_cartography_table_side3",
+    "north": "fyrevariants:block/acacia_cartography_table_side3",
+    "particle": "fyrevariants:block/acacia_cartography_table_side3",
+    "south": "fyrevariants:block/acacia_cartography_table_side1",
+    "up": "fyrevariants:block/acacia_cartography_table_top",
+    "west": "fyrevariants:block/acacia_cartography_table_side2"
+  }
+}

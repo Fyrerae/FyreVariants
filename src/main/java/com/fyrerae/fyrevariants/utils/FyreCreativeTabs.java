@@ -57,6 +57,7 @@ public class FyreCreativeTabs {
         addBlocksFromClass(event, CampfireBlocks.class);
         addBlocksFromClass(event, BeehiveBlocks.class);
         addBlocksFromClass(event, FletchingTableBlocks.class);
+        addBlocksFromClass(event, CartographyTableBlocks.class);
     }
 
     private static void addBuildingBlocks(BuildCreativeModeTabContentsEvent event) {

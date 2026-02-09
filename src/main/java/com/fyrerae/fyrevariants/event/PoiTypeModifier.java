@@ -1,10 +1,7 @@
 package com.fyrerae.fyrevariants.event;
 
 import com.fyrerae.fyrevariants.FyreVariants;
-import com.fyrerae.fyrevariants.block.categories.BarrelBlocks;
-import com.fyrerae.fyrevariants.block.categories.BeehiveBlocks;
-import com.fyrerae.fyrevariants.block.categories.ComposterBlocks;
-import com.fyrerae.fyrevariants.block.categories.FletchingTableBlocks;
+import com.fyrerae.fyrevariants.block.categories.*;
 import com.google.common.collect.ImmutableSet;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.world.entity.ai.village.poi.PoiType;
@@ -67,6 +64,21 @@ public class PoiTypeModifier {
             fletchingTableStates.addAll(FletchingTableBlocks.WARPED_FLETCHING_TABLE.get().getStateDefinition().getPossibleStates());
 
             registry.register(PoiTypes.FLETCHER, new PoiType(ImmutableSet.copyOf(fletchingTableStates), 1, 1));
+
+            // Cartographer - Cartography Tables
+            Set<BlockState> cartographyTableStates = new HashSet<>();
+            cartographyTableStates.addAll(CartographyTableBlocks.ACACIA_CARTOGRAPHY_TABLE.get().getStateDefinition().getPossibleStates());
+            cartographyTableStates.addAll(CartographyTableBlocks.BAMBOO_CARTOGRAPHY_TABLE.get().getStateDefinition().getPossibleStates());
+            cartographyTableStates.addAll(CartographyTableBlocks.BIRCH_CARTOGRAPHY_TABLE.get().getStateDefinition().getPossibleStates());
+            cartographyTableStates.addAll(CartographyTableBlocks.CHERRY_CARTOGRAPHY_TABLE.get().getStateDefinition().getPossibleStates());
+            cartographyTableStates.addAll(CartographyTableBlocks.CRIMSON_CARTOGRAPHY_TABLE.get().getStateDefinition().getPossibleStates());
+            cartographyTableStates.addAll(CartographyTableBlocks.JUNGLE_CARTOGRAPHY_TABLE.get().getStateDefinition().getPossibleStates());
+            cartographyTableStates.addAll(CartographyTableBlocks.MANGROVE_CARTOGRAPHY_TABLE.get().getStateDefinition().getPossibleStates());
+            cartographyTableStates.addAll(CartographyTableBlocks.OAK_CARTOGRAPHY_TABLE.get().getStateDefinition().getPossibleStates());
+            cartographyTableStates.addAll(CartographyTableBlocks.SPRUCE_CARTOGRAPHY_TABLE.get().getStateDefinition().getPossibleStates());
+            cartographyTableStates.addAll(CartographyTableBlocks.WARPED_CARTOGRAPHY_TABLE.get().getStateDefinition().getPossibleStates());
+
+            registry.register(PoiTypes.CARTOGRAPHER, new PoiType(ImmutableSet.copyOf(cartographyTableStates), 1, 1));
 
             // Bees - Beehives
             Set<BlockState> beehiveStates = new HashSet<>();
