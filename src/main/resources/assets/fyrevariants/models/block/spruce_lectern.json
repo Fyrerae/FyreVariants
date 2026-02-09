@@ -1,0 +1,11 @@
+{
+  "parent": "fyrevariants:block/variantlectern",
+  "textures": {
+    "particle": "fyrevariants:block/spruce_lectern_sides",
+    "bottom": "block/spruce_planks",
+    "base": "fyrevariants:block/spruce_lectern_base",
+    "front": "fyrevariants:block/spruce_lectern_front",
+    "sides": "fyrevariants:block/spruce_lectern_sides",
+    "top": "fyrevariants:block/spruce_lectern_top"
+  }
+}

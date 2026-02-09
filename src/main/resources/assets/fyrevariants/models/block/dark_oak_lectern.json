@@ -1,0 +1,11 @@
+{
+  "parent": "fyrevariants:block/variantlectern",
+  "textures": {
+    "particle": "fyrevariants:block/dark_oak_lectern_sides",
+    "bottom": "block/dark_oak_planks",
+    "base": "fyrevariants:block/dark_oak_lectern_base",
+    "front": "fyrevariants:block/dark_oak_lectern_front",
+    "sides": "fyrevariants:block/dark_oak_lectern_sides",
+    "top": "fyrevariants:block/dark_oak_lectern_top"
+  }
+}

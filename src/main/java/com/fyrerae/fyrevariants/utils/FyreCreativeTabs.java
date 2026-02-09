@@ -41,6 +41,7 @@ public class FyreCreativeTabs {
         addBlocksFromClass(event, ChestBlocks.class);
         addBlocksFromClass(event, RailBlocks.class);
         addItemsFromClass(event, MinecartItems.class);
+        addBlocksFromClass(event, LecternBlocks.class);
     }
 
     public static void addToolsUtilities(BuildCreativeModeTabContentsEvent event) {
@@ -58,6 +59,7 @@ public class FyreCreativeTabs {
         addBlocksFromClass(event, BeehiveBlocks.class);
         addBlocksFromClass(event, FletchingTableBlocks.class);
         addBlocksFromClass(event, CartographyTableBlocks.class);
+        addBlocksFromClass(event, LecternBlocks.class);
     }
 
     private static void addBuildingBlocks(BuildCreativeModeTabContentsEvent event) {

@@ -1,10 +1,7 @@
 package com.fyrerae.fyrevariants.block.entity;
 
 import com.fyrerae.fyrevariants.FyreVariants;
-import com.fyrerae.fyrevariants.block.categories.BarrelBlocks;
-import com.fyrerae.fyrevariants.block.categories.BeehiveBlocks;
-import com.fyrerae.fyrevariants.block.categories.CampfireBlocks;
-import com.fyrerae.fyrevariants.block.categories.ChestBlocks;
+import com.fyrerae.fyrevariants.block.categories.*;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.neoforged.bus.api.IEventBus;
@@ -80,6 +77,20 @@ public class FyreBlockEntities {
                     BeehiveBlocks.MANGROVE_BEEHIVE.get(),
                     BeehiveBlocks.SPRUCE_BEEHIVE.get(),
                     BeehiveBlocks.WARPED_BEEHIVE.get()
+            ).build(null));
+
+    public static final Supplier<BlockEntityType<FyreLecternBlockEntity>> LECTERN = BLOCK_ENTITIES.register("lectern",
+            () -> BlockEntityType.Builder.of(FyreLecternBlockEntity::new,
+                    LecternBlocks.ACACIA_LECTERN.get(),
+                    LecternBlocks.BAMBOO_LECTERN.get(),
+                    LecternBlocks.BIRCH_LECTERN.get(),
+                    LecternBlocks.CHERRY_LECTERN.get(),
+                    LecternBlocks.CRIMSON_LECTERN.get(),
+                    LecternBlocks.DARK_OAK_LECTERN.get(),
+                    LecternBlocks.JUNGLE_LECTERN.get(),
+                    LecternBlocks.MANGROVE_LECTERN.get(),
+                    LecternBlocks.SPRUCE_LECTERN.get(),
+                    LecternBlocks.WARPED_LECTERN.get()
             ).build(null));
 
     public static void register(IEventBus eventBus) {

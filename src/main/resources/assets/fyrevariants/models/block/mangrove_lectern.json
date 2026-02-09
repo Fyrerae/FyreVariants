@@ -1,0 +1,11 @@
+{
+  "parent": "fyrevariants:block/variantlectern",
+  "textures": {
+    "particle": "fyrevariants:block/mangrove_lectern_sides",
+    "bottom": "block/mangrove_planks",
+    "base": "fyrevariants:block/mangrove_lectern_base",
+    "front": "fyrevariants:block/mangrove_lectern_front",
+    "sides": "fyrevariants:block/mangrove_lectern_sides",
+    "top": "fyrevariants:block/mangrove_lectern_top"
+  }
+}

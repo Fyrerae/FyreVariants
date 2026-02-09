@@ -1,0 +1,11 @@
+{
+  "parent": "fyrevariants:block/variantlectern",
+  "textures": {
+    "particle": "fyrevariants:block/acacia_lectern_sides",
+    "bottom": "block/acacia_planks",
+    "base": "fyrevariants:block/acacia_lectern_base",
+    "front": "fyrevariants:block/acacia_lectern_front",
+    "sides": "fyrevariants:block/acacia_lectern_sides",
+    "top": "fyrevariants:block/acacia_lectern_top"
+  }
+}

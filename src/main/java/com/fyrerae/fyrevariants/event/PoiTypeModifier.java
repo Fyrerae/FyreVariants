@@ -80,6 +80,21 @@ public class PoiTypeModifier {
 
             registry.register(PoiTypes.CARTOGRAPHER, new PoiType(ImmutableSet.copyOf(cartographyTableStates), 1, 1));
 
+            // Librarian - Lecterns
+            Set<BlockState> lecternStates = new HashSet<>();
+            lecternStates.addAll(LecternBlocks.ACACIA_LECTERN.get().getStateDefinition().getPossibleStates());
+            lecternStates.addAll(LecternBlocks.BAMBOO_LECTERN.get().getStateDefinition().getPossibleStates());
+            lecternStates.addAll(LecternBlocks.BIRCH_LECTERN.get().getStateDefinition().getPossibleStates());
+            lecternStates.addAll(LecternBlocks.CHERRY_LECTERN.get().getStateDefinition().getPossibleStates());
+            lecternStates.addAll(LecternBlocks.CRIMSON_LECTERN.get().getStateDefinition().getPossibleStates());
+            lecternStates.addAll(LecternBlocks.DARK_OAK_LECTERN.get().getStateDefinition().getPossibleStates());
+            lecternStates.addAll(LecternBlocks.JUNGLE_LECTERN.get().getStateDefinition().getPossibleStates());
+            lecternStates.addAll(LecternBlocks.MANGROVE_LECTERN.get().getStateDefinition().getPossibleStates());
+            lecternStates.addAll(LecternBlocks.SPRUCE_LECTERN.get().getStateDefinition().getPossibleStates());
+            lecternStates.addAll(LecternBlocks.WARPED_LECTERN.get().getStateDefinition().getPossibleStates());
+
+            registry.register(PoiTypes.LIBRARIAN, new PoiType(ImmutableSet.copyOf(lecternStates), 1, 1));
+
             // Bees - Beehives
             Set<BlockState> beehiveStates = new HashSet<>();
             beehiveStates.addAll(BeehiveBlocks.ACACIA_BEEHIVE.get().getStateDefinition().getPossibleStates());

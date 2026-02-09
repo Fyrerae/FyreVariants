@@ -1,0 +1,11 @@
+{
+  "parent": "fyrevariants:block/variantlectern",
+  "textures": {
+    "particle": "fyrevariants:block/crimson_lectern_sides",
+    "bottom": "block/crimson_planks",
+    "base": "fyrevariants:block/crimson_lectern_base",
+    "front": "fyrevariants:block/crimson_lectern_front",
+    "sides": "fyrevariants:block/crimson_lectern_sides",
+    "top": "fyrevariants:block/crimson_lectern_top"
+  }
+}

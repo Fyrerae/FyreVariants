@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "fyrevariants:block/dark_oak_lectern",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "fyrevariants:block/dark_oak_lectern"
+    },
+    "facing=south": {
+      "model": "fyrevariants:block/dark_oak_lectern",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "fyrevariants:block/dark_oak_lectern",
+      "y": 270
+    }
+  }
+}

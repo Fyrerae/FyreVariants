@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "fyrevariants:block/acacia_lectern",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "fyrevariants:block/acacia_lectern"
+    },
+    "facing=south": {
+      "model": "fyrevariants:block/acacia_lectern",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "fyrevariants:block/acacia_lectern",
+      "y": 270
+    }
+  }
+}

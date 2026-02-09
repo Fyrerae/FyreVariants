@@ -1,0 +1,11 @@
+{
+  "parent": "fyrevariants:block/variantlectern",
+  "textures": {
+    "particle": "fyrevariants:block/jungle_lectern_sides",
+    "bottom": "block/jungle_planks",
+    "base": "fyrevariants:block/jungle_lectern_base",
+    "front": "fyrevariants:block/jungle_lectern_front",
+    "sides": "fyrevariants:block/jungle_lectern_sides",
+    "top": "fyrevariants:block/jungle_lectern_top"
+  }
+}

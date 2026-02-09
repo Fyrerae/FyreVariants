@@ -1,0 +1,11 @@
+{
+  "parent": "fyrevariants:block/variantlectern",
+  "textures": {
+    "particle": "fyrevariants:block/bamboo_lectern_sides",
+    "bottom": "block/bamboo_planks",
+    "base": "fyrevariants:block/bamboo_lectern_base",
+    "front": "fyrevariants:block/bamboo_lectern_front",
+    "sides": "fyrevariants:block/bamboo_lectern_sides",
+    "top": "fyrevariants:block/bamboo_lectern_top"
+  }
+}

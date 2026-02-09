@@ -1,0 +1,11 @@
+{
+  "parent": "fyrevariants:block/variantlectern",
+  "textures": {
+    "particle": "fyrevariants:block/warped_lectern_sides",
+    "bottom": "block/warped_planks",
+    "base": "fyrevariants:block/warped_lectern_base",
+    "front": "fyrevariants:block/warped_lectern_front",
+    "sides": "fyrevariants:block/warped_lectern_sides",
+    "top": "fyrevariants:block/warped_lectern_top"
+  }
+}
